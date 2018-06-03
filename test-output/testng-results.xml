@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3628" started-at="2018-06-03T01:55:18Z" finished-at="2018-06-03T01:55:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3628" started-at="2018-06-03T01:55:18Z" finished-at="2018-06-03T01:55:22Z">
+      <class name="com.FutureItVisionFramework.searchtest.HomePageSearchTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.FutureItVisionFramework.searchtest.HomePageSearchTest@3532ec19]" name="init" is-config="true" duration-ms="3417" started-at="2018-06-03T01:55:18Z" finished-at="2018-06-03T01:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifysearchButton()[pri:0, instance:com.FutureItVisionFramework.searchtest.HomePageSearchTest@3532ec19]" name="verifysearchButton" duration-ms="185" started-at="2018-06-03T01:55:22Z" finished-at="2018-06-03T01:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchButton -->
+      </class> <!-- com.FutureItVisionFramework.searchtest.HomePageSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
