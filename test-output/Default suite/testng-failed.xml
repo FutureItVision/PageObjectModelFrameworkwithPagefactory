@@ -6,6 +6,7 @@
       <class name="com.FutureItVisionFramework.searchtest.HomePageSearchTest">
         <methods>
           <include name="init"/>
+          <include name="endSession"/>
           <include name="verifysearchButton"/>
         </methods>
       </class> <!-- com.FutureItVisionFramework.searchtest.HomePageSearchTest -->
