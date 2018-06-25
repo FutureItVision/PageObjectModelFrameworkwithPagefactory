@@ -2,12 +2,16 @@ package com.FutureItVisionFramework.searchtest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.FutureItVisionFramework.Action.HomePage;
 import com.FutureItVisionFramework.testbase.ScriptBase;
 
 public class HomePageSearchTest  extends ScriptBase{
+	HomePage homepage;
 	@BeforeTest
 	public void init(){
 		beforetest();
@@ -16,10 +20,19 @@ public class HomePageSearchTest  extends ScriptBase{
 	
 	@Test
 	public void verifysearchButton(){
-		driver.findElement(By.xpath(".//*[@id='search_query_top']")).sendKeys("Test");
-		System.out.println(driver.findElement(By.xpath(".//*[@id='search_query_top']")).getSize());
+		
+		homepage=new HomePage(driver);	
+		homepage.homePageSearchButton();
+		Assert.assertTrue(homepage.homePageSearchButton());
 		
 		
 	}
+	
+	
+	@AfterTest
+	public void endSession(){
+		driver.close();
+	}
+	
 
 }
