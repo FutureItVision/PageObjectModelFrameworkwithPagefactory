@@ -1,7 +1,5 @@
 package com.FutureItVisionFramework.searchtest;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -11,6 +9,8 @@ import com.FutureItVisionFramework.Action.HomePage;
 import com.FutureItVisionFramework.testbase.ScriptBase;
 
 public class HomePageSearchTest  extends ScriptBase{
+	public static final Logger log=Logger.getLogger(HomePageSearchTest.class.getName());
+
 	HomePage homepage;
 	@BeforeTest
 	public void init(){
@@ -20,10 +20,11 @@ public class HomePageSearchTest  extends ScriptBase{
 	
 	@Test
 	public void verifysearchButton(){
-		
+		log.info("#############Saerch button test start######");
 		homepage=new HomePage(driver);	
 		homepage.homePageSearchButton();
 		Assert.assertTrue(homepage.homePageSearchButton());
+		log.info("#############Saerch button test Finish######");
 		
 		
 	}
