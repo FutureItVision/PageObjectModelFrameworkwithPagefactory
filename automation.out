@@ -1,0 +1,12 @@
+2018-07-07 01:11:15 INFO  HomePageSearchTest:24 - ################Search button test start#############
+2018-07-07 01:11:15 INFO  HomePage:23 - search button is displayed[[ChromeDriver: chrome on MAC (940f55e1bfc0ebc48a1e753ff663b0b1)] -> id: search_query_top]
+2018-07-07 01:11:15 INFO  HomePage:23 - search button is displayed[[ChromeDriver: chrome on MAC (940f55e1bfc0ebc48a1e753ff663b0b1)] -> id: search_query_top]
+2018-07-07 01:11:15 INFO  HomePageSearchTest:28 - ################Search button test Finish#############
+2018-07-07 01:35:16 INFO  HomePageSearchTest:24 - #############search button test Start############
+2018-07-07 01:35:17 INFO  HomePage:24 - Search button is displayed[[ChromeDriver: chrome on MAC (75bd147b731b41202e6d6533859a866b)] -> id: search_query_top]
+2018-07-07 01:35:17 INFO  HomePage:24 - Search button is displayed[[ChromeDriver: chrome on MAC (75bd147b731b41202e6d6533859a866b)] -> id: search_query_top]
+2018-07-07 01:35:17 INFO  HomePageSearchTest:28 - #############search button test finish############
+2018-07-07 01:54:38 INFO  HomePageSearchTest:23 - #############Saerch button test start######
+2018-07-07 01:54:38 INFO  HomePage:26 - Search button displayed [[ChromeDriver: chrome on MAC (7f398a14984954f2816513fcceb1f4d8)] -> id: search_query_top]
+2018-07-07 01:54:39 INFO  HomePage:26 - Search button displayed [[ChromeDriver: chrome on MAC (7f398a14984954f2816513fcceb1f4d8)] -> id: search_query_top]
+2018-07-07 01:54:39 INFO  HomePageSearchTest:27 - #############Saerch button test Finish######
