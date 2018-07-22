@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5206" started-at="2018-07-07T05:54:33Z" finished-at="2018-07-07T05:54:39Z">
+  <suite name="Default suite" duration-ms="12155" started-at="2018-07-21T22:46:11Z" finished-at="2018-07-21T22:46:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5206" started-at="2018-07-07T05:54:33Z" finished-at="2018-07-07T05:54:39Z">
-      <class name="com.FutureItVisionFramework.searchtest.HomePageSearchTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.FutureItVisionFramework.searchtest.HomePageSearchTest@402a079c]" name="init" is-config="true" duration-ms="4910" started-at="2018-07-07T05:54:33Z" finished-at="2018-07-07T05:54:38Z">
+    <test name="Default test" duration-ms="12155" started-at="2018-07-21T22:46:11Z" finished-at="2018-07-21T22:46:23Z">
+      <class name="com.FutureItVisionFramework.searchtest.Catalog">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.FutureItVisionFramework.searchtest.Catalog@5649fd9b]" name="init" is-config="true" duration-ms="3031" started-at="2018-07-21T22:46:11Z" finished-at="2018-07-21T22:46:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifysearchButton()[pri:0, instance:com.FutureItVisionFramework.searchtest.HomePageSearchTest@402a079c]" name="verifysearchButton" duration-ms="161" started-at="2018-07-07T05:54:38Z" finished-at="2018-07-07T05:54:39Z">
+        <test-method status="PASS" signature="verifyCatalogDressSelectale()[pri:0, instance:com.FutureItVisionFramework.searchtest.Catalog@5649fd9b]" name="verifyCatalogDressSelectale" duration-ms="9000" started-at="2018-07-21T22:46:14Z" finished-at="2018-07-21T22:46:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifysearchButton -->
-        <test-method status="PASS" signature="endSession()[pri:0, instance:com.FutureItVisionFramework.searchtest.HomePageSearchTest@402a079c]" name="endSession" is-config="true" duration-ms="107" started-at="2018-07-07T05:54:39Z" finished-at="2018-07-07T05:54:39Z">
+        </test-method> <!-- verifyCatalogDressSelectale -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.FutureItVisionFramework.searchtest.Catalog@5649fd9b]" name="endSession" is-config="true" duration-ms="108" started-at="2018-07-21T22:46:23Z" finished-at="2018-07-21T22:46:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSession -->
-      </class> <!-- com.FutureItVisionFramework.searchtest.HomePageSearchTest -->
+      </class> <!-- com.FutureItVisionFramework.searchtest.Catalog -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

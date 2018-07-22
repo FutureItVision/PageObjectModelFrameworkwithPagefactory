@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ScriptBase {
 	public static final Logger log=Logger.getLogger(ScriptBase.class.getName());
 	
-	public WebDriver driver;
+	public  WebDriver driver;
 	public void beforetest(){
 		String Log4jConfigPath="log4j.properties";
 		PropertyConfigurator.configure(Log4jConfigPath);
